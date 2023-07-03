@@ -20,4 +20,4 @@ Project aims to create parallax website.
 ![parallax](assets/parallax.gif)
 
 ## Project Link
-[Parallax Scrolling Efeect-Website](https://hellenkuttery.github.io/parallax/)
+[Parallax Scrolling Effect-Website](https://hellenkuttery.github.io/parallax/)
