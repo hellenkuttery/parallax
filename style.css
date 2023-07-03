@@ -1,0 +1,122 @@
+html,
+body {
+  /*? parallax efekti için height 100% verilir */
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: #666666;
+}
+
+.background--image1 {
+  background-image: url(./assets/bg1.jpg);
+  height: 100%;
+}
+
+.background--image2 {
+  background-image: url(./assets/bg2.jpg);
+  height: 80%;
+}
+.background--image3 {
+  background-image: url(./assets/bg3.jpg);
+  height: 80%;
+}
+.background--image4 {
+  background-image: url(./assets/bg4.jpg);
+  height: 80%;
+}
+
+.background--image1,
+.background--image2,
+.background--image3,
+.background--image4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*! paralax için ufak dokunuş buraya eklenek */
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.heading-container {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+.heading-container__heading {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+}
+
+.section {
+  text-align: center;
+  padding: 3rem 5rem;
+  line-height: 1.8rem;
+}
+.section-ligth {
+  background-color: #f1f1f1;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.heading-container__logo {
+  width: 30%;
+}
+
+.heading-container__text {
+  background-color: black;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 0.7rem 0 0.7rem 0;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.2rem;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .heading-container {
+    font-size: 1.5rem;
+  }
+  .heading-container__heading {
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;  
+    letter-spacing:0.2rem ;
+  }
+  .section {
+
+    padding: 1.5rem 3rem;
+    line-height: 1.8rem;
+  }
+
+  .heading-container__logo {
+    width: 50%;
+  }
+  .heading-container__text {
+   
+
+    border-radius: 0.7rem 0 0.7rem 0;
+    outline: 0.4rem inset purple;
+    outline-offset: 0.2rem;
+    text-transform: capitalize;
+    line-height: 1.5;
+  }
+
+}
