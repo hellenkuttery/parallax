@@ -6,14 +6,12 @@ Project aims to create parallax website.
 ## Project Skeleton 
 
 ```
-003-parallax-website (folder)
+Parallax Scrolling Effect-Website
 |
-|----readme.md         # Given to the students (Definition of the project)          
-|----images            # Given to the students (Images of the project)   
-|----solution
-        |----index.html  
-        |----style.css   
-        |----images
+|----readme.md                   
+|----assets            
+|----index.html
+|----style.css   
 ```
 ## Project Gif
 
